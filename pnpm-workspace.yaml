@@ -1,0 +1,14 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+
+allowBuilds:
+  esbuild: set this to true or false
+  unrs-resolver: set this to true or false
+
+# esbuild butuh postinstall untuk mengunduh binary platform-nya.
+# Dipakai oleh tsx dan drizzle-kit.
+onlyBuiltDependencies:
+  - esbuild
+  # dipakai eslint-config-next
+  - unrs-resolver
