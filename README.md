@@ -1,4 +1,4 @@
-# INTERACC — SaaS Accounting
+# MyAccounting AI
 
 Monorepo multi-tenant. **Task-001: Setup Monorepo** (deadline 14 Sep).
 
