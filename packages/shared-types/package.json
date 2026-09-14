@@ -1,0 +1,16 @@
+{
+  "name": "@interacc/shared-types",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch --preserveWatchOutput",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@interacc/config": "workspace:*",
+    "typescript": "^5.7.2"
+  }
+}
